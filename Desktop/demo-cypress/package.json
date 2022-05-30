@@ -16,6 +16,7 @@
   "author": "generousdev",
   "license": "ISC",
   "dependencies": {
+    "cucumber-html-reporter": "^5.5.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "devDependencies": {
@@ -23,6 +24,11 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/support/step_definitions/**/"
- }
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cucumber_report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
 }

@@ -11,7 +11,7 @@
 
 
 ## Authors
-* [Soraia Reis](https://github.com/soraiareis)
+* [Abubakar Abdullahi](https://github.com/GenerousDev/cypress-project.git)
 
 
 ## Pre-requisites
@@ -53,4 +53,6 @@ npm run cy:tags --e TAGS='@login'
 
 You can also change the `baseURL` by setting the `CYPRESS_BASE_URL` environment variable like the command line below:
 ```
-CYPRESS_BASE_URL=http://the-internet.herokuapp.com npm run cy:run
+CYPRESS_BASE_URL=http://the-internet. herokuapp.com npm run cy:run
+
+    // "step_definitions": "cypress/support/step_definitions/**/",
