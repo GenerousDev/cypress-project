@@ -1,5 +1,5 @@
 {
     "baseUrl": "https://soraia.herokuapp.com",
-    "testFiles": "**/*.{feature,features}"
+    "testFiles": "**/*.{feature,demo-cypress/cypress/integration/features}"
       
 }
